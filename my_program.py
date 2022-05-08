@@ -36,3 +36,19 @@ class1_sum = sum(class1_grades.values())
 class1_length = len(class1_grades)
 avg = class1_sum / class1_length
 print(avg)
+
+
+# Tuples
+# tuples are not mutable ( changeable)
+# Use a list if you want to change later, a tuple if no change
+# represent arrays of values that are not to be changed during the course of the program:
+monday_temps = (1, 7, 9)
+
+
+# Below is testing after upate to 3.10 to test error messages
+
+print("Robwrt".replace("w", "e"))
+
+x = [1, 2, 3]
+
+# List operations
