@@ -24,3 +24,15 @@ winner = max(class_grades)
 print(winner)
 
 print(class_grades.count(89))
+
+
+# dictionary
+
+class1_grades = {"Tom": 90, "Dan": 80, "Lisa": 75.8}
+print(class1_grades.values())
+print(class1_grades.keys())
+
+class1_sum = sum(class1_grades.values())
+class1_length = len(class1_grades)
+avg = class1_sum / class1_length
+print(avg)
