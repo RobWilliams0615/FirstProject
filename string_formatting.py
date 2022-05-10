@@ -11,9 +11,16 @@
 
 # string formatting with multiple variables
 
-firstname = input("Enter your First Name: ")
-lastname = input("Enter your Last Name: ")
+#firstname = input("Enter your First Name: ")
+#lastname = input("Enter your Last Name: ")
 
-message = f"Hello {firstname} {lastname}"
+#message = f"Hello {firstname} {lastname}"
 
-print(message)
+# print(message)
+
+
+def greeting(name):
+    return f"Hi {name.title()}"
+
+
+print(greeting("John"))
