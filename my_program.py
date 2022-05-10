@@ -52,3 +52,6 @@ print("Robwrt".replace("w", "e"))
 x = [1, 2, 3]
 
 # List operations
+
+
+mon_temps = [77.5, 67, 79.7, 73]
