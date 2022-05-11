@@ -18,3 +18,11 @@ def liters_to_oz(L):
 
 for liters in [1, 3, 5, 7.8]:
     print(liters_to_oz(liters))
+
+# looping through dictionary
+
+customer_satisfaction = {"Hardees": 9.8,
+                         "Illegal Petes": 10, "Sonic": 6, "Panera": 8.5}
+
+for customer in customer_satisfaction.keys():
+    print(customer)
